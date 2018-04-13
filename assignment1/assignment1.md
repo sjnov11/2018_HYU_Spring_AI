@@ -1,6 +1,5 @@
 ---
 typora-root-url: ./
-typora-copy-images-to: ./
 ---
 
 # 변형 미로 경로 탐색
@@ -181,7 +180,7 @@ int getCost() const { return heuristic + passed_len; }
 
 ### IDS 
 
-![D](/IDS.jpg)
+![D](./IDS.jpg)
 
  미로 경로를 탐색하는데 있어서 많은 횟수의 탐색이 일어남을 볼 수 있다.
 
@@ -189,7 +188,7 @@ int getCost() const { return heuristic + passed_len; }
 
 ### GBS
 
-![B](/GBS.jpg)
+![B](./GBS.jpg)
 
  매 순간 heuristic value가 최적인 것을 골라서 탐색하기 때문에, 탐색 횟수가 매우 적다. 주어진 test case에서는 3경우 모두 optimal하나, 다른 case 에서는 optimal을 보장하지 못하였다. 
 
@@ -197,7 +196,7 @@ int getCost() const { return heuristic + passed_len; }
 
 ### ASS
 
-![S](/ASS.jpg)
+![S](./ASS.jpg)
 
  heuristic value + 현재 까지의 cost의 값 중 최적인 것을 골라서 탐색한다. GBS보다는 search 횟수가 늘어나지만, 항상 optimal한 결과를 보장한다.
 
