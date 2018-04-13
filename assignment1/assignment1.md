@@ -189,7 +189,7 @@ int getCost() const { return heuristic + passed_len; }
 
 ### GBS
 
-![B](/GBS.jpg)
+![B](./GBS.jpg)
 
  매 순간 heuristic value가 최적인 것을 골라서 탐색하기 때문에, 탐색 횟수가 매우 적다. 주어진 test case에서는 3경우 모두 optimal하나, 다른 case 에서는 optimal을 보장하지 못하였다. 
 
