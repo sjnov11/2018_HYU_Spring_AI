@@ -55,11 +55,9 @@ typora-root-url: ..\..
 
 
 
-
-
 ### Network
 
- network는 connection들로 구성되어 있으며, 각각의 connection은 뉴런  ![i](https://wikimedia.org/api/rest_v1/media/math/render/svg/add78d8608ad86e54951b8c8bd6c8d8416533d20) 의 output 을 뉴런 ![j](https://wikimedia.org/api/rest_v1/media/math/render/svg/2f461e54f5c093e92a55547b9764291390f0b5d0) 의 input으로 연결한다. 이 때, ![i](https://wikimedia.org/api/rest_v1/media/math/render/svg/add78d8608ad86e54951b8c8bd6c8d8416533d20) 는  ![j](https://wikimedia.org/api/rest_v1/media/math/render/svg/2f461e54f5c093e92a55547b9764291390f0b5d0) 의 predecessor이고,  ![j](https://wikimedia.org/api/rest_v1/media/math/render/svg/2f461e54f5c093e92a55547b9764291390f0b5d0) 는 ![i](https://wikimedia.org/api/rest_v1/media/math/render/svg/add78d8608ad86e54951b8c8bd6c8d8416533d20) 의 successor이다. 각각의 connection은 weight ![w_{ij}](https://wikimedia.org/api/rest_v1/media/math/render/svg/d3302ff355269436b43bc2fbe180303881c09321)  로 assign 되어 있다.
+ network는 connection들로 구성되어 있으며, 각각의 connection은 뉴런  $i$ 의 output 을 뉴런 $j$ 의 input으로 연결한다. 이 때, $i$ 는 $j$ 의 predecessor이고, $j$ 는 $i$ 의successor이다. 각각의 connection은 weight $w_{ij}$로 assign 되어 있다.
 
 
 
